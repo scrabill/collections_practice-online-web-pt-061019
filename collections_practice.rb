@@ -10,7 +10,7 @@ def sort_array_char_count(array)
   new_array = []
 
   array.sort do |x,y|
-    x.length <=> y.length # Takes one item from the array. and compares it against the length of the second
+    x.length <=> y.length # Takes one item from the array. and compares it against the length of the second. The original array is unchanged
   end
 
   # arr.sort{|x, y| x.length <=> y.length}
