@@ -7,7 +7,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  new_array = []
+  new_array = [] # Not needed :)
 
   array.sort do |x,y|
     x.length <=> y.length # Takes one item from the array. and compares it against the length of the second. The original array is unchanged
